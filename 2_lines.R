@@ -52,7 +52,7 @@ viajes_sp <- viajes %>%
 
 
 # Filtrar solo comunas presentes ------------------------------------------
-cc <- c(unique(j$ComunaSubida), unique(j$ComunaBajada))
+cc <- c(unique(viajes_sp$ComunaSubida), unique(viajes_sp$ComunaBajada))
 
 centroides2 <- centroides %>% filter(Comuna %in% cc)
 
@@ -96,7 +96,7 @@ p <- ggplot() +
   coord_sf(xlim = limx, ylim = limy) +
   theme(
     legend.position = "none",
-    plot.background = element_rect(fill = "grey33"),
+    plot.background = element_rect(fill = "grey33", colour = "grey33"),
     panel.background = element_rect(fill = "grey33"),
     panel.grid = element_line(
       colour = "mediumturquoise",
@@ -104,12 +104,15 @@ p <- ggplot() +
       size = 0.3
     ),
     axis.text = element_text(colour = "mediumturquoise"),
+    axis.ticks = element_line(colour = "mediumturquoise"),
     text = element_text(colour = "plum")
   )
 
 ggsave(
   "plots/2_viajes7am.png",
   plot = p,
+  device = "png",
+  height = 6,
   width = 6,
-  height = 6
+  bg = "grey33"
 )
