@@ -1,4 +1,4 @@
-# #30daymap
+# #30DayMapChallenge
 # Día 1: points
 # Accidentes de tránsito en Santiago de Chile
 # Datos: Comisión Nacional de Seguridad de Tránsito y Cedeus
