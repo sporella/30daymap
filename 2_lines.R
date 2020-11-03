@@ -46,8 +46,7 @@ viajes_sp <- viajes %>%
   slice(1:300) %>%
   mutate(
     lon_Bajada = ifelse(ComunaSubida == ComunaBajada, lon_Bajada + 10, lon_Bajada),
-    lat_Bajada = ifelse(ComunaSubida == ComunaBajada, lat_Bajada +
-                          10, lat_Bajada)
+    lat_Bajada = ifelse(ComunaSubida == ComunaBajada, lat_Bajada + 10, lat_Bajada)
   )
 
 
