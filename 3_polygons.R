@@ -1,5 +1,5 @@
 # #30DayMapChallenge
-# Día 2: lines
+# Día 3: polígonos
 # Carta de Inundación por Tsunami
 # Datos: http://www.geoportal.cl/geoportal/catalog/search/resource/resumen.page?uuid=%7B5FA8762F-DFAB-4CC7-9155-CC2012D7BF8A%7D
 # Autora: Stephanie Orellana (@sporella)

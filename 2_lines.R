@@ -1,5 +1,5 @@
 # #30DayMapChallenge
-# Día 2: lines
+# Día 2: líneas
 # Origen y destino de viajes en Santiago
 # Datos: http://www.dtpm.gob.cl/index.php/documentos/matrices-de-viaje
 # Autora: Stephanie Orellana (@sporella)
