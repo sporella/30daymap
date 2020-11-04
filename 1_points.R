@@ -32,7 +32,7 @@ p <- ggplot() +
        subtitle = "Año 2019",
        caption = "@sporella") +
   guides(
-    colour = guide_legend(title.position = "left",),
+    colour = guide_legend(title.position = "left"),
     size = guide_legend(title.position = "left")
   ) +
   theme(plot.caption.position = "plot",
