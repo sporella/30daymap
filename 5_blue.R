@@ -23,17 +23,14 @@ p <- ggplot() +
   ) +
   labs(
     fill = "",
-    tag = "FRACCIÓN DE NUBOSIDAD\nOCTUBRE 2020",
-    caption = "@sporella",
+   caption = "FRACCIÓN DE NUBOSIDAD OCTUBRE 2020\n@sporella",
     y = "",
     x = ""
   ) +
   theme(
-    plot.margin = unit(c(0.1, 0, 0.6, 0), "mm"),
+    plot.margin = unit(c(0.6, 0.6, 0.6, 0.6), "mm"),
     legend.position = "none",
-    plot.caption = element_text(size = 3, vjust = 1),
-    plot.tag.position = "bottom",
-    plot.tag = element_text(size = 4),
+    plot.caption = element_text(size = 3, vjust = 0),
     plot.caption.position = "plot",
     panel.background = element_rect(fill = NA),
     axis.text = element_blank(),
@@ -46,6 +43,6 @@ ggsave(
   plot = p,
   device = "png",
   height = 3,
-  width = 6,
+  width = 5,
   bg = "white"
 )
