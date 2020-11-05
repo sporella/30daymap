@@ -23,18 +23,18 @@ p <- ggplot() +
   ) +
   labs(
     fill = "",
-   caption = "FRACCIÓN DE NUBOSIDAD OCTUBRE 2020\n@sporella",
+    caption = "@sporella",
     y = "",
     x = ""
   ) +
+  theme_void()+
   theme(
     plot.margin = unit(c(0.6, 0.6, 0.6, 0.6), "mm"),
     legend.position = "none",
-    plot.caption = element_text(size = 3, vjust = 0),
+    plot.caption = element_text(size = 3, colour = "navy"),
     plot.caption.position = "plot",
-    panel.background = element_rect(fill = NA),
-    axis.text = element_blank(),
-    text = element_text(face = "bold", size = 4)
+    panel.background = element_blank(),
+    axis.text = element_blank()
   ) +
   coord_sf(crs = 4326)
 
@@ -42,7 +42,7 @@ ggsave(
   "plots/5_nubes.png",
   plot = p,
   device = "png",
-  height = 3,
-  width = 5,
+  height = 2.5,
+  width = 4.5,
   bg = "white"
 )
