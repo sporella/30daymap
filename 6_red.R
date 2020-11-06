@@ -2,6 +2,7 @@
 # Día 6: rojo
 # Cantidad de Bovinos en Regiones de Los Ríos y Los Lagos, Chile
 # Fuente datos: https://ide.minagri.gob.cl/geoweb/2019/11/20/agricultura-y-ganaderia/
+# Fuente imagen: https://www.flaticon.es/icono-gratis/vaca_2674106
 # Autora: Stephanie Orellana (@sporella)
 
 library(tidyverse)
