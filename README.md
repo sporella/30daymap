@@ -32,3 +32,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/5_blue.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/5_nubes.png)
+
+## Día 6: rojo
+
+[Código](https://github.com/sporella/30daymap/blob/master/6_red.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/6_vacas.png)
