@@ -27,9 +27,9 @@ p <- ggplot() +
   geom_point(
     data = cerros,
     aes(x = lon, y = lat, shape = "\u1404"),
-    size = 3,
-    colour = "#69073d",
-    alpha = 0.6
+    size = 1,
+    colour = "#69073d", stroke = 8,
+    alpha = 0.5
   ) +
   scale_shape_manual("", labels = toupper("Cerro Isla"), values = "\u1404") +
   labs(
