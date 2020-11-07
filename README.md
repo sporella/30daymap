@@ -38,3 +38,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/6_red.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/6_vacas.png)
+
+## Día 7: verde
+
+[Código](https://github.com/sporella/30daymap/blob/master/7_green.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/7_areasverdes.png)
