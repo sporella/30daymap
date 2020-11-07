@@ -57,8 +57,8 @@ ggsave(
   "plots/7_areasverdes.png",
   plot = p,
   device = "png",
-  height = 5,
-  width = 4,
+  height = 6,
+  width = 6,
   bg = "#f6fcf5"
 )
 
