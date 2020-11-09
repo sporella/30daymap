@@ -44,3 +44,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/7_green.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/7_areasverdes.png)
+
+## Día 8: amarillo
+
+[Código](https://github.com/sporella/30daymap/blob/master/8_yellow.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/8_yellow.png)
