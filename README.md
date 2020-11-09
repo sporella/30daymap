@@ -49,4 +49,4 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 
 [Código](https://github.com/sporella/30daymap/blob/master/8_yellow.R)
 
-![](https://github.com/sporella/30daymap/blob/master/plots/8_yellow.png)
+![](https://github.com/sporella/30daymap/blob/master/plots/8_desierto.png)
