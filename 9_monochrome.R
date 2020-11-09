@@ -8,7 +8,6 @@ library(elevatr)
 library(sf)
 library(stars)
 library(tidyverse)
-library(ggmap)
 library(extrafont)
 
 loadfonts()
@@ -46,12 +45,10 @@ p <- ggplot()+
     data = con,
     colour = alpha("#E4AACF", 0.4),
     size = 0.3,
-    inherit.aes = F,
     show.legend = F
   ) +
   geom_sf(
     data = volcanes,
-    inherit.aes = F,
     colour = "#61234D",
     shape = "\u17D9",
     size = 10,
@@ -64,7 +61,6 @@ p <- ggplot()+
     nudge_y = -0.06,
     nudge_x = -0.13,
     size = 2.5,
-    inherit.aes = F,
     colour = "#61234D", fontface = "bold", family = "Rockwell"
   ) +
   scale_fill_gradient(low = "#38142D",
