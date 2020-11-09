@@ -31,16 +31,24 @@ regiones <- st_read("http://geonode.meteochile.gob.cl/geoserver/wfs?srsName=EPSG
 bb <- st_bbox(com) + c(-1, 0, +0.1, +1)
 bb_p <- st_as_sf(st_as_sfc(bb))
 a <- get_elev_raster(bb_p, z = 7, clip = "bbox")
-a[a<0] <- NA
+a[a < 0] <- NA
 s <- st_as_stars(a)
-con <- st_contour(s, na.rm = T, contour_lines = T, 
-                  breaks = seq(0, max(s$layer, na.rm = T), 200))
+con <- st_contour(
+  s,
+  na.rm = T,
+  contour_lines = T,
+  breaks = seq(0, max(s$layer, na.rm = T), 200)
+)
 
 # Visualización -----------------------------------------------------------
 
-p <- ggplot()+
-  geom_stars(data = s, alpha = 0.75, show.legend=F)+
-  geom_sf(data=regiones, fill="transparent", colour = "#6E355B")+
+p <- ggplot() +
+  geom_stars(data = s,
+             alpha = 0.75,
+             show.legend = F) +
+  geom_sf(data = regiones,
+          fill = "transparent",
+          colour = "#6E355B") +
   geom_sf(
     data = con,
     colour = alpha("#E4AACF", 0.4),
@@ -61,25 +69,36 @@ p <- ggplot()+
     nudge_y = -0.06,
     nudge_x = -0.13,
     size = 2.5,
-    colour = "#61234D", fontface = "bold", family = "Rockwell"
+    colour = "#61234D",
+    fontface = "bold",
+    family = "Rockwell"
   ) +
   scale_fill_gradient(low = "#38142D",
-                      high = "#F1D7E8", na.value = "#EBD5E4")+
-  labs(title = "Volcanes Activos", 
+                      high = "#F1D7E8",
+                      na.value = "#EBD5E4") +
+  labs(title = "Volcanes Activos",
        subtitle = "Región de La Araucanía, Wallmapu, Chile",
-       caption = "@sporella")+
-  coord_sf(crs = 4326,
-           xlim = c(-73.8, -70.8),
-           ylim = c(-39.8, -37.6))+
-  theme(panel.grid = element_line(colour = "#61234D", size = 0.1, linetype = "dashed"), 
-        panel.ontop = T,
-        panel.background = element_rect(fill = "transparent"),
-        plot.background = element_rect(fill = "#EBD5E4", colour = "transparent"),
-        text = element_text(family = "Rockwell", colour = "#61234D"),
-        axis.text = element_text(family = "Algerian", colour = "#61234D"),
-        axis.title = element_blank(),
-        plot.title.position = "plot",
-        plot.caption.position = "plot")
+       caption = "@sporella") +
+  coord_sf(
+    crs = 4326,
+    xlim = c(-73.8,-70.8),
+    ylim = c(-39.8,-37.6)
+  ) +
+  theme(
+    panel.grid = element_line(
+      colour = "#61234D",
+      size = 0.1,
+      linetype = "dashed"
+    ),
+    panel.ontop = T,
+    panel.background = element_rect(fill = "transparent"),
+    plot.background = element_rect(fill = "#EBD5E4", colour = "transparent"),
+    text = element_text(family = "Rockwell", colour = "#61234D"),
+    axis.text = element_text(family = "Algerian", colour = "#61234D"),
+    axis.title = element_blank(),
+    plot.title.position = "plot",
+    plot.caption.position = "plot"
+  )
 
 ggsave(
   "plots/9_volcanes.png",
