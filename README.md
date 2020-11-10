@@ -56,3 +56,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/9_monochrome.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/9_volcanes.png)
+
+## Día 10: grilla
+
+[Código](https://github.com/sporella/30daymap/blob/master/10_grid.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/10_paradas.png)
