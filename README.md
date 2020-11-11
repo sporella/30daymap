@@ -62,3 +62,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/10_grid.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/10_paradas.png)
+
+## Día 11: 3D
+
+[Código](https://github.com/sporella/30daymap/blob/master/11_3d.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/11_torresdelpaine.png)
