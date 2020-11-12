@@ -74,4 +74,4 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Viaje al Desierto de Atacama, Rudolfo Philippi](http://www.memoriachilena.gob.cl/602/w3-article-7825.html)
 [Fuente ](http://www.bibliotecanacionaldigital.gob.cl/bnd/631/w3-article-350582.html)
 
-![](https://github.com/sporella/30daymap/blob/master/plots/12_philippi.png)
+![](https://github.com/sporella/30daymap/blob/master/plots/12_philippi.jpg)
