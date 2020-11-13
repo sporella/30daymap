@@ -9,18 +9,23 @@ library(ggplot2)
 library(rcartocolor)
 
 sm <- read_stars("data/soil_moisture.tif")
-plot(sm)
+
 
 p <- ggplot() +
   geom_stars(data = sm) +
   scale_fill_gradientn(colours = carto_pal(n = 7, "Teal"), na.value = "transparent") +
-  labs(title = "HUMEDAD SUPERFICIAL DE SUELO ", subtitle = "PROMEDIO OCTUBRE 2020", caption = "@sporella", tag = "NASA-USDA SMAP Global Soil Moisture")+
+  labs(
+    title = "HUMEDAD SUPERFICIAL DE SUELO ",
+    subtitle = "PROMEDIO OCTUBRE 2020",
+    caption = "@sporella",
+    tag = "NASA-USDA SMAP Global Soil Moisture"
+  ) +
   theme(
     legend.justification = "bottom",
     legend.position = "left",
     legend.background = element_blank(),
     legend.margin = margin(0, 0, 0, 0),
-    legend.box.margin = margin(-10, -80, 20, 30),
+    legend.box.margin = margin(-10,-80, 20, 30),
     axis.title = element_blank(),
     axis.text = element_blank(),
     axis.ticks = element_blank(),
@@ -36,15 +41,21 @@ p <- ggplot() +
     plot.caption = element_text(size = 6),
     text = element_text(colour = "grey60")
   ) +
-  guides(fill = guide_colourbar(
-    "Humedad de Suelo [mm]",
-    title.position = "top",
-    direction = "horizontal",
-    barheight = unit(3, "mm"),
-    barwidth = unit(30, "mm"),
-    title.theme = element_text(size = 8, colour = "grey60"),
-    label.theme = element_text(size = 6, face = "bold", colour = "grey60")
-  )) + coord_sf()
+  guides(
+    fill = guide_colourbar(
+      "Humedad de Suelo [mm]",
+      title.position = "top",
+      direction = "horizontal",
+      barheight = unit(3, "mm"),
+      barwidth = unit(30, "mm"),
+      title.theme = element_text(size = 8, colour = "grey60"),
+      label.theme = element_text(
+        size = 6,
+        face = "bold",
+        colour = "grey60"
+      )
+    )
+  ) + coord_sf()
 
 ggsave(
   "plots/13_humedadsuelo.png",
