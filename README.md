@@ -76,3 +76,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Fuente ](http://www.bibliotecanacionaldigital.gob.cl/bnd/631/w3-article-350582.html)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/12_philippi.png)
+
+## Día 13: raster
+
+[Código](https://github.com/sporella/30daymap/blob/master/13_raster.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/13_humedadsuelo.png)
