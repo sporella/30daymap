@@ -82,3 +82,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/13_raster.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/13_humedadsuelo.png)
+
+## Día 14: Cambio Climático
+
+[Código](https://github.com/sporella/30daymap/blob/master/14_cambioclimatico.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/14_anomalias.png)
