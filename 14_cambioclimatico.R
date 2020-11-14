@@ -2,6 +2,7 @@
 # Día 14: Cambio Climático
 # Anomalías año 2019
 # Fuente datos: https://www.globalclimatemonitor.org/#
+# Más información: https://www.ncdc.noaa.gov/sotc/global/201913
 # Autora: Stephanie Orellana (@sporella)
 
 library(stars)
