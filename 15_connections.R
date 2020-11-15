@@ -34,7 +34,7 @@ theme_world <- function(back_colour = "#420b41") {
     legend.background = element_blank(),
     panel.grid = element_line(colour = "grey70", linetype = "dotted", size = 0.1),
     panel.ontop = T,
-    legend.position = "left",
+    legend.position = "none",
     text = element_text(size = 5, colour = "khaki"),
     strip.background = element_rect(fill = NA),
     plot.caption.position = "plot",
@@ -65,12 +65,10 @@ p <- ggplot() +
   scale_size(range=c(0.01, 0.4))+
   labs(x="", y="", title = toupper("Pasajeros transportados en avión desde Chile\nAÑO 2019"),
        caption = "@sporella",
-       tag = "Datos: Junta de Aeronáutica Civil de Chile")+
-  theme(legend.position = "none")
+       tag = "Datos: Junta de Aeronáutica Civil de Chile")
 
 
-p <- p + theme_world("#0b3d42") +
-  theme(legend.position = "none")
+p <- p + theme_world("#0b3d42")
 
 ggsave(
   filename = "plots/15_vuelos.png",
