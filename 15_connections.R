@@ -75,7 +75,7 @@ p <- ggplot() +
   labs(
     x = "",
     y = "",
-    title = toupper("Pasajeros transportados en avión desde Chile\nAÑO 2019"),
+    title = toupper("Transporte de pasajeros en avión desde Chile\nAÑO 2019"),
     caption = "@sporella",
     tag = "Datos: Junta de Aeronáutica Civil de Chile"
   )
