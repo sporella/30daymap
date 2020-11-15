@@ -88,3 +88,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/14_cambioclimatico.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/14_anomalias.png)
+
+## Día 15: Conexiones
+
+[Código](https://github.com/sporella/30daymap/blob/master/15_connections.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/15_vuelos.png)
