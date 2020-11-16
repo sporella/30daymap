@@ -94,3 +94,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/15_connections.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/15_vuelos.png)
+
+## Día 16: Isla
+
+[Código](https://github.com/sporella/30daymap/blob/master/16_island.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/16_rapanui.png)
