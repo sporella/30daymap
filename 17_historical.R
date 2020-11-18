@@ -1,3 +1,9 @@
+# #30DayMapChallenge
+# Día 17: Histórico
+# Sudamérica 1830
+# Fuente datos: https://3.bp.blogspot.com/-CewMSzUoZP8/XIo-XvjYFzI/AAAAAAAAUvU/VrKULBMJWUUTSddwV_2WJzDRgwSqNdlTgCLcBGAs/s1600/sudamerica1830.jpg
+# Autora: Stephanie Orellana (@sporella)
+
 library(sf)
 library(tidyverse)
 library(extrafont)
@@ -16,7 +22,7 @@ sud <- read_sf("data/sudamerica1830.geojson") %>%
 
 oceanos <- data.frame(
   name = c("Pacífico Sur", "Atlántico Sur"),
-  geometry = st_sfc(st_point(c(-95, -30)),
+  geometry = st_sfc(st_point(c(-90, -30)),
                     st_point(c(-30, -25)),
                     crs = 4326
   )) %>%
@@ -66,8 +72,8 @@ p <- ggplot() +
   ) +
   scale_fill_manual(values = colores) +
   labs(title = "Sudamérica ~1830", caption = "@sporella") +
-  theme(text = element_text(family =  "Vladimir Script", colour = "grey40"),
-        plot.title = element_text(size = 25, hjust = 0.5),
+  theme(text = element_text(family =  "Vladimir Script", colour = "grey45"),
+        plot.title = element_text(size = 30, hjust = 0.5),
         plot.caption= element_text(size = 8),
         axis.title = element_blank(),
         panel.grid = element_line(colour = "grey33", size = 0.4, linetype = "dotted"),
