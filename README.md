@@ -100,3 +100,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/16_island.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/16_rapanui.png)
+
+## Día 17: Histórico
+
+[Código](https://github.com/sporella/30daymap/blob/master/17_historical.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/17_sudamerica1830.png)
