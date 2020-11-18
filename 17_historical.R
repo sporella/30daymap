@@ -16,8 +16,8 @@ sud <- read_sf("data/sudamerica1830.geojson") %>%
                            str_detect(pais, "Rio") ~ -30,
                            pais == "Chile" ~ 90,
                            TRUE ~ 0),
-         wrap = case_when(str_detect(pais, "Guayana")~ str_replace(pais, " ", " "),
-                          str_detect(pais, "Rio") ~ "Rio Grande Do Soul",
+         wrap = case_when(str_detect(pais, "Guayana")~ pais,
+                          str_detect(pais, "Rio") ~ pais,
                           TRUE ~ str_wrap(pais, width = 4)))
 
 oceanos <- data.frame(
