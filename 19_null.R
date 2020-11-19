@@ -14,6 +14,9 @@ library(extrafont)
 
 loadfonts()
 
+
+# Cargar y procesar datos -------------------------------------------------
+
 red <- read_csv("data/conexiones_internet_fija.csv", col_names = FALSE)
 names(red) <- paste0(red[1, ], "_", red[2, ])
 red <- red[-c(1:2), ]
@@ -34,6 +37,7 @@ red_longer <- red %>%
   mutate(null = if_else(total == 0, 0, 1))
 
 
+# *Unir con geojson de comunas --------------------------------------------
 comunas <- read_sf("data/comunas_chile.geojson")
 a <- unique(comunas$Comuna)
 b <- unique(red_longer$comuna)
@@ -51,7 +55,11 @@ red_sp <- comunas %>%
   filter(!Comuna %in% c("Isla de Pascua", "Juan Fernández"))
 
 
-g <- purrr::map(c("c", "b", "a", "d", "e"),
+# Visualización -----------------------------------------------------------
+
+# * 3 partes --------------------------------------------------------------
+
+g <- purrr::map(c("c", "b", "a"),
                 function(x) {
                   ggplot() +
                     geom_sf(
@@ -81,6 +89,9 @@ g <- purrr::map(c("c", "b", "a", "d", "e"),
                     coord_sf(label_graticule = "W") +
                     theme_void()
                 })
+
+
+# * unir con patchwork ----------------------------------------------------
 
 t <- "internet_fija = NULL"
 sub <- "Comunas en Chile Continental que No Registraron Conexiones de Internet Fija\nAño 2019"
