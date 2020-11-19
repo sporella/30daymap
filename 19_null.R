@@ -111,7 +111,7 @@ g2 <- wrap_plots(g) +
       family = "Impact"
     ),
     plot.subtitle = element_text(
-      size = 7,
+      size = 8,
       colour = "gold3",
       family = "Lucida Console"
     ),
