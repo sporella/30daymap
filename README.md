@@ -106,3 +106,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/17_historical.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/17_sudamerica1830.png)
+
+## Día 18: Uso de Suelo
+
+[Código](https://github.com/sporella/30daymap/blob/master/18_landuse.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/18_prcsantiago.png)
