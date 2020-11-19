@@ -112,3 +112,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/18_landuse.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/18_prcsantiago.png)
+
+## Día 19: Nulo
+
+[Código](https://github.com/sporella/30daymap/blob/master/19_null.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/19_sininternet.png)
