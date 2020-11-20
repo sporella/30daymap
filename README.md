@@ -118,3 +118,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/19_null.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/19_sininternet.png)
+
+## Día 20: Población
+
+[Código](https://github.com/sporella/30daymap/blob/master/20_population.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/20_expectativas.png)
