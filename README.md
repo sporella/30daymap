@@ -124,3 +124,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/20_population.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/20_expectativas.png)
+
+## Día 21: Agua
+
+[Código](https://github.com/sporella/30daymap/blob/master/21_water.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/21_20lagos.png)
