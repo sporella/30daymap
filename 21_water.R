@@ -64,7 +64,7 @@ g <- purrr::map(l$NOMBRE,
                             fill = "deepskyblue3") +
                     labs(
                       tag = d$NOMBRE,
-                      subtitle = paste0(d$lat_lab, " - ", d$lon_lab, "\n", d$AREA_KM2, " km\u00B2")
+                      subtitle = paste0(d$lat_lab, " - ", d$lon_lab, "\n", round(d$AREA_KM2), " km\u00B2")
                     ) +
                     coord_sf(xlim = limx, ylim = limy) +
                     theme_void() +
