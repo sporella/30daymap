@@ -50,15 +50,13 @@ g <- purrr::map(l$NOMBRE,
                   difx <- diff(bb[c(1, 3)])
                   dify <- diff(bb[c(2, 4)])
                   if (difx < xdif) {
-                    limx <- bb[c(1, 3)] + c(-(xdif - difx) / 2,+(xdif - difx) / 2)
-                    limy <-
-                      bb[c(2, 4)] + c(-(ydif - dify) / 2,+(ydif - dify) / 2)
+                    limx <- bb[c(1, 3)] + c(-(xdif - difx) / 2, +(xdif - difx) / 2)
+                    limy <- bb[c(2, 4)] + c(-(ydif - dify) / 2, +(ydif - dify) / 2)
                   } else{
                     limx <- lmax[c(1, 3)]
                     limy <- lmax[c(2, 4)]
                   }
-                  s <-
-                    ggplot() +
+                  s <- ggplot() +
                     geom_sf(data = d,
                             colour = "transparent",
                             fill = "deepskyblue3") +
