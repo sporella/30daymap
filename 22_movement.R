@@ -13,7 +13,7 @@ library(gganimate)
 
 viajes <-
   read_csv2(
-    "https://raw.githubusercontent.com/sporella/nightingale/master/data/matriz_viajes.csv"
+    "https://raw.githubusercontent.com/sporella/nightingale/master/data/matriz_viajes.csv",
   ) %>%
   select(1:4) %>%
   mutate_if(is.character, str_to_title) %>% 
@@ -82,9 +82,9 @@ theme_travel <- function(back_colour = "#420b41") {
     legend.background = element_blank(),
     panel.grid = element_blank(),
     legend.position = "none",
-    text = element_text(size = 8, colour = "grey60"),
+    text = element_text(size = 8, colour = "grey60", face = "bold"),
     plot.title.position = "plot",
-    plot.title = element_text(colour = "grey70", face = "bold"),
+    plot.subtitle = element_text(size = 7, vjust = 5),
     plot.caption.position = "plot",
     axis.ticks = element_blank(),
     axis.text = element_blank(),
@@ -153,13 +153,13 @@ p <- ggplot() +
     data = centroides2,
     aes(label = Comuna,
         colour = Comuna),
-    nudge_y = -2000,
+    nudge_y = -1500,
     size = 3,
     show.legend = F
   ) +
   scale_color_manual(values = colores) +
   scale_size(range = c(0.1, 10)) +
-  labs(title = "VIAJES EN TRANSPORTE PÚBLICO\n7:00 AM\nSANTIAGO DE CHILE", caption = "@sporella") +
+  labs(title = "VIAJES EN TRANSPORTE PÚBLICO", subtitle="7:00 AM\nSANTIAGO DE CHILE", caption = "@sporella") +
   theme_travel(back_colour = "grey10") +
   coord_sf(xlim = limx, ylim = limy) +
   transition_time(horatime, range = c(25200, 27000)) +
