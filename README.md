@@ -130,3 +130,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/21_water.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/21_20lagos.png)
+
+## Día 22: Movimiento
+
+[Código](https://github.com/sporella/30daymap/blob/master/22_movement.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/22_viajes7am.gif)
