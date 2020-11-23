@@ -136,3 +136,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/22_movement.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/22_viajes7am.gif)
+
+## Día 23: Límites
+
+[Código](https://github.com/sporella/30daymap/blob/master/23_boundaries.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/23_antartica.png)
