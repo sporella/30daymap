@@ -142,3 +142,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/23_boundaries.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/23_antartica.png)
+
+## Día 24: Elevación
+
+[Código](https://github.com/sporella/30daymap/blob/master/24_elevacion.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/24_paleodem.png)
