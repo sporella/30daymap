@@ -22,8 +22,7 @@ covid <- read_csv("https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/ma
   ) %>%
   mutate(
     cod_comuna = as.numeric(`Codigo comuna`),
-    fecha = as.Date(fecha, format = "%Y-%m-%d"),
-    id = paste0(fecha, "_", Comuna)
+    fecha = as.Date(fecha, format = "%Y-%m-%d")
   )
 
 comunas <- st_read("data/comunas_metropolitana.geojson")
