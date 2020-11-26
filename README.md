@@ -148,3 +148,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/24_elevation.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/24_paleodem.gif)
+
+## Día 25: COVID
+
+[Código](https://github.com/sporella/30daymap/blob/master/25_covid.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/25_covid.gif)
