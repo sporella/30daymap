@@ -145,6 +145,6 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 
 ## Día 24: Elevación
 
-[Código](https://github.com/sporella/30daymap/blob/master/24_elevacion.R)
+[Código](https://github.com/sporella/30daymap/blob/master/24_elevation.R)
 
-![](https://github.com/sporella/30daymap/blob/master/plots/24_paleodem.png)
+![](https://github.com/sporella/30daymap/blob/master/plots/24_paleodem.gif)
