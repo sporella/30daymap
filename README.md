@@ -160,3 +160,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/26_newtool.py)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/26_fragilestate.png)
+
+## Día 27: Datos **pequeños** o grandes
+ 
+[Código](https://github.com/sporella/30daymap/blob/master/27_smalldata.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/27_cultura.png)
