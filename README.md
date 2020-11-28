@@ -166,3 +166,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/27_smalldata.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/27_cultura.png)
+
+## Día 25: No geográfico :alien:
+ 
+[Código](https://github.com/sporella/30daymap/blob/master/28_nongeographic.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/28_marte.png)
