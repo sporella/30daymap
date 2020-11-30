@@ -178,3 +178,9 @@ En este repositorio dejaré mis contribuciones al desafío [#30DayMapChallenge](
 [Código](https://github.com/sporella/30daymap/blob/master/29_globe.R)
 
 ![](https://github.com/sporella/30daymap/blob/master/plots/29_gfs.gif)
+
+## Día 30: Un mapa
+ 
+[Código](https://github.com/sporella/30daymap/blob/master/30_amap.R)
+
+![](https://github.com/sporella/30daymap/blob/master/plots/30_poblacionsudamerica.png)
